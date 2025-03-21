@@ -14,7 +14,7 @@ WORKDIR /var/www/html/
 RUN echo "<h1>Hello from my dockerfile</h1>" > index.html
 
 # Additional html file
-COPY revathi.html .
+#COPY revathi.html .
 
 # Parent Process Info
 CMD ["httpd", "-DFOREGROUND"]
